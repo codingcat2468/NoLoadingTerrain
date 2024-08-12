@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.codingcat.noloadingterrain.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "DownloadingTerrainScreenMixin",
+    "ProgressScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

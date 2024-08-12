@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "noloadingterrain",
+  "version": "${version}",
+  "name": "NoLoadingTerrain",
+  "description": "Gets rid of the \"Loading Terrain\" screen.",
+  "authors": ["codingcat2468"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/noloadingterrain/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    {
+      "config": "noloadingterrain.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
